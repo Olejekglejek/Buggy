@@ -1,2 +1,0 @@
-# Buggy
-Bug Tracker
