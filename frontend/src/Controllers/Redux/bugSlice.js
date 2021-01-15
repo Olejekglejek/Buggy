@@ -2,14 +2,16 @@ import { createSlice } from '@reduxjs/toolkit'
 import { retreiveBugs } from '../bugController'
 
 const slice = createSlice({
-  name: 'bug';
+  name: 'bug',
   initialState: [],
   reducers: {
-    getBugs: state=>retreiveBugs(),
+    getBugs: (state) => {
+      
+    },
     createBug:(state, actions)=> {
   
 },
-    updateBugs: (state, actions){
+    updateBugs: (state, actions)=>{
 
     },
     markComplete: (state, action) => {
