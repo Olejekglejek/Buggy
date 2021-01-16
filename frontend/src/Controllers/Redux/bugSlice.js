@@ -5,13 +5,11 @@ const slice = createSlice({
   name: 'bug',
   initialState: [],
   reducers: {
-    getBugs: (state) => {
-      
-    },
-    createBug:(state, actions)=> {
+    getBugs:state => (retreiveBugs),
+    createBugs:(state, actions)=> {
   
 },
-    updateBugs: (state, actions)=>{
+    updateBug: (state, actions)=>{
 
     },
     markComplete: (state, action) => {
